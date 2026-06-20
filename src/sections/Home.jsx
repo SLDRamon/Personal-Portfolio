@@ -3,11 +3,11 @@ import {
     Menu, 
     X, 
     ArrowRight, 
-    Download, 
-    Github, 
-    Linkedin, 
-    Twitter,
+    Download,
 } from "lucide-react";
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
 
 export const Home = () => {
@@ -20,7 +20,7 @@ export const Home = () => {
                     alt="Home image" 
                     className="w-full h-full object-cover opacity-40"
                 />
-                <div className="abosulte inset-0 bg-linear-to-b from-background/20 via-background/80 to-background"/>
+                <div className="absolute inset-0 bg-linear-to-b from-background/20 via-background/80 to-background"/>
             </div>
 
             {/* Green Dots */}
@@ -82,9 +82,7 @@ export const Home = () => {
                         <div className="flex items-center gap-4 animated-fade-in animation-delay-400">
                             <span className="text-sm text-muted-foreground">Follow me:</span>
                             {[
-                                { icon: Github, href: "#" },
-                                { icon: Linkedin, href: "#" },
-                                { icon: Twitter, href: "#" },
+                                /* { icon: faGithub, href: "#"}, */
                             ].map((social, idx) => (
                                 <a
                                 key={idx}
@@ -98,6 +96,14 @@ export const Home = () => {
                         </div>
                     </div>
                     {/* Right Column - Profile Image */}
+                    <div>
+                        {/* Profile Image */}
+                        <div>
+                            <div>
+                                <img src="Profile-Photo.jpg"/>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
