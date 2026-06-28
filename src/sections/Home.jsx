@@ -80,35 +80,37 @@ export const Home = () => {
                                 </span>
                             </h1>
                             <p className="text-lg text-muted max-w-lg animate-fade-in animation-delay-200">
-                                I'm Ramon A. Soledad - a Front-end Developer. I earned my bachelor's degree 
-                                in Computer Engineering from Bulacan State University. Knowledge in front-end 
-                                developing that builds the user-facing part of websites and web applications, 
-                                focusing on the visual design, layout, and interactivity that users directly engage with.
+                                Hi, I'm Ramon Soledad — a Computer Engineer specializing in Front-End Development. 
+                                I build responsive, modern, and user-friendly web applications using React.js, JavaScript, and Tailwind CSS, 
+                                with a focus on clean code, performance, accessibility, and exceptional user experiences.
                             </p>
                         </div>
 
                         {/* CTAs */}
                         <div className="flex flex-warp gap-4 animate-fade-in animation-delay-300">
-                            <Button size="lg">
+                            <Button className="cursor-pointer" size="lg">
                                 Contact Me <ArrowRight className="w-5 h-5"/>
                             </Button>
-                             <AnimatedBorderButton>
-                                <Download  className="w-5 h-5"/>
+                            <a href="https://drive.usercontent.google.com/u/0/uc?id=1f37vADePHOEbVtO2sU0mGwoRDJyUIEO4&export=download"> 
+                             <AnimatedBorderButton >
+                                <Download className="w-5 h-5"/>
                                      Download CV
                             </AnimatedBorderButton>
+                            </a>
                         </div>
 
                         {/* Social Links */}
                         <div className="flex items-center gap-4 animated-fade-in animation-delay-400">
                             <span className="text-sm text-muted-foreground">Follow me:</span>
                             {[
-                                { icon: FaGithub, href: "#"},
+                                { icon: FaGithub, href: ""},
                                 { icon: FaLinkedin, href: "#"},
-                                { icon: FaFacebook, href: "#"},
+                                { icon: FaFacebook, href: "https://www.facebook.com/ramon.soledad.1/"},
                             ].map((social, idx) => (
                                 <a
                                 key={idx}
                                 href={social.href}
+                                target="_blank"
                                 className="p-2 rounded-full glass hover:bg-primary/10
                                  hover:text-primary transition-all duration-300"
                                 >

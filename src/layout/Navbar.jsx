@@ -31,7 +31,7 @@ export const Navbar = () => {
         >
             <nav className="container mx-auto px-6 flex items-container justify-between">
                 <a href="#" className="text-xl font-bold tracking-tight hover:text-primary">
-                    RamSLD<span className="text-primary">.</span>
+                    Ram<span className="text-primary">SLD</span>
                 </a>
 
                 
@@ -48,7 +48,10 @@ export const Navbar = () => {
 
                 {/* CTA Button */}
                 <div className="hidden md:block">
-                    <Button size = "sm">Contact Me</Button>
+                    <Button 
+                    id="contact"
+                    className="cursor-pointer" 
+                    size = "sm">Contact Me</Button>
                 </div>
 
                 {/* Mobile Menu Button */}
@@ -70,7 +73,7 @@ export const Navbar = () => {
                                 </a>
                         ))}
 
-                        <Button onClick= { () => setIsMobileMenuOpen(false)}>Contact Me</Button>
+                        <Button className="cursor-pointer" onClick= { () => setIsMobileMenuOpen(false)}>Contact Me</Button>
                     </div>
                 </div>
             )}
