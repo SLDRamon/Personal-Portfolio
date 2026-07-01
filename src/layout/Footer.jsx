@@ -1,8 +1,8 @@
 import { FaGithub, FaLinkedin, FaFacebook, FaHeart } from "react-icons/fa";
 
 const socialLinks = [
-  { icon: FaGithub, href: "#", label: "GitHub" },
-  { icon: FaLinkedin, href: "#", label: "LinkedIn" },
+  { icon: FaGithub, href: "https://github.com/SLDRamon", label: "GitHub" },
+  { icon: FaLinkedin, href: "https://www.linkedin.com/in/ramsld/", label: "LinkedIn" },
   { icon: FaFacebook, href: "https://www.facebook.com/ramon.soledad.1/", label: "Facebook" },
 ];
 

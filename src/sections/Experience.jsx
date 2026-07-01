@@ -51,8 +51,8 @@ export const Experience = () => {
                     Experience that <span className="font-serif italic font-normal text-white"> speaks volumes.</span>
                 </h2>
                 <p className="text-muted-foreground animate-fade-in animation-delay-200">
-                    A timeline of my professional growth, from curious beginner to
-                    senior engineer leading teams and building products at scale.
+                    A timeline of my professional journey, showcasing my growth as a Computer Engineer and Front-End Developer through hands-on experience, 
+                    continuous learning, and a passion for building modern, responsive, and user-centered web applications.
                 </p>
             </div>
 

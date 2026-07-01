@@ -73,7 +73,7 @@ export const Home = () => {
                             <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight animate-fade-in animation-delay-100">
                                 Crafting <span className="text-primary glow-text"> digital</span>
                                 <br />
-                                experience with
+                                experiences with
                                 <br />
                                 <span className="font-serif italic font-normal text-white">
                                     precision.
@@ -88,10 +88,12 @@ export const Home = () => {
 
                         {/* CTAs */}
                         <div className="flex flex-warp gap-4 animate-fade-in animation-delay-300">
+                            <a href="#contact">
                             <Button className="cursor-pointer" size="lg">
                                 Contact Me <ArrowRight className="w-5 h-5"/>
                             </Button>
-                            <a href="https://drive.usercontent.google.com/u/0/uc?id=1f37vADePHOEbVtO2sU0mGwoRDJyUIEO4&export=download"> 
+                            </a>
+                            <a href="https://drive.usercontent.google.com/u/0/uc?id=1f37vADePHOEbVtO2sU0mGwoRDJyUIEO4&export=download" target="_blank"> 
                              <AnimatedBorderButton >
                                 <Download className="w-5 h-5"/>
                                      Download CV
@@ -103,8 +105,8 @@ export const Home = () => {
                         <div className="flex items-center gap-4 animated-fade-in animation-delay-400">
                             <span className="text-sm text-muted-foreground">Follow me:</span>
                             {[
-                                { icon: FaGithub, href: ""},
-                                { icon: FaLinkedin, href: "#"},
+                                { icon: FaGithub, href: "https://github.com/SLDRamon"},
+                                { icon: FaLinkedin, href: "https://www.linkedin.com/in/ramsld/"},
                                 { icon: FaFacebook, href: "https://www.facebook.com/ramon.soledad.1/"},
                             ].map((social, idx) => (
                                 <a
@@ -136,7 +138,7 @@ export const Home = () => {
                                 </div>
                                 {/* Stats Badge */}
                                 <div className="absolute -top-4 -left-4 glass rounded-xl px-4 py-3 animate-float animation-delay-500">
-                                    <div className="text-2xl font-bold text-primary">1+</div>
+                                    <div className="text-2xl font-bold text-primary">3+</div>
                                     <div className="-text-xs text-muted-foreground">Year Exp.</div>
                                 </div>
                             </div>

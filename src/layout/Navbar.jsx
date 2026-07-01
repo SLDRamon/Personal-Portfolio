@@ -47,12 +47,15 @@ export const Navbar = () => {
                 </div>
 
                 {/* CTA Button */}
-                <div className="hidden md:block">
-                    <Button 
-                    id="contact"
+               
+                <div className="hidden md:block" >
+                    <a href="#contact">
+                    <Button
                     className="cursor-pointer" 
                     size = "sm">Contact Me</Button>
+                    </a>
                 </div>
+             
 
                 {/* Mobile Menu Button */}
                 <button className="md:hidden p-2 text-foreground cursor-pointer" onClick={() => setIsMobileMenuOpen((prev) => !prev)}>
@@ -72,8 +75,11 @@ export const Navbar = () => {
                                     {links.label}
                                 </a>
                         ))}
-
-                        <Button className="cursor-pointer" onClick= { () => setIsMobileMenuOpen(false)}>Contact Me</Button>
+                        <a href="#contact"
+                        className="container mx-auto flex  flex-col">
+                        <Button 
+                        className="cursor-pointer" 
+                        onClick= { () => setIsMobileMenuOpen(false)}>Contact Me</Button></a>
                     </div>
                 </div>
             )}

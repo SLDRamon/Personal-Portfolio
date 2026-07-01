@@ -20,7 +20,7 @@ const contactInfo = [
   {
     icon: MapPin,
     label: "Location",
-    value: "Cofradia City of Malolos, Philippines",
+    value: "Cofradia, City of Malolos, Philippines",
     href: "#",
   },
 ];
@@ -146,7 +146,7 @@ export const Contact = () => {
               </div>
 
               <Button 
-              className="w-full" 
+              className="w-full cursor-pointer" 
               type="submit" 
               size="lg" 
               disabled={isLoading}
