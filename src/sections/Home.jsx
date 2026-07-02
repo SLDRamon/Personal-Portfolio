@@ -94,7 +94,7 @@ export const Home = () => {
                                 Contact Me <ArrowRight className="w-5 h-5"/>
                             </Button>
                             </a>
-                            <a href="https://drive.usercontent.google.com/u/0/uc?id=1KFgBwOHm5oa3ivu4SRG4Jg1Xf1I8VxJt&export=download" target="_blank"> 
+                            <a href="https://drive.usercontent.google.com/u/0/uc?id=1BAIyL6lcP8W719S2rMnah_vXOraUcxn5&export=download" target="_blank"> 
                              <AnimatedBorderButton >
                                 <Download className="w-5 h-5"/>
                                      Download CV
