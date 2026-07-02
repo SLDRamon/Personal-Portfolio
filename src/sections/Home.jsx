@@ -18,13 +18,14 @@ import {
 const skills = [
     "HTML5",
     "CSS3",
-    "Tailwind CSS",
     "JavaScript",
     "React.js",
+    "Tailwind CSS",
     "Git",
     "GitHub",
     "Firebase",
     "Cloudflare",
+    "Vercel",
 ];
 
 export const Home = () => {
@@ -93,7 +94,7 @@ export const Home = () => {
                                 Contact Me <ArrowRight className="w-5 h-5"/>
                             </Button>
                             </a>
-                            <a href="https://drive.usercontent.google.com/u/0/uc?id=1f37vADePHOEbVtO2sU0mGwoRDJyUIEO4&export=download" target="_blank"> 
+                            <a href="https://drive.usercontent.google.com/u/0/uc?id=1KFgBwOHm5oa3ivu4SRG4Jg1Xf1I8VxJt&export=download" target="_blank"> 
                              <AnimatedBorderButton >
                                 <Download className="w-5 h-5"/>
                                      Download CV
