@@ -26,6 +26,7 @@ const skills = [
     "Firebase",
     "Cloudflare",
     "Vercel",
+    "Email.js",
 ];
 
 export const Home = () => {
@@ -81,7 +82,7 @@ export const Home = () => {
                                 </span>
                             </h1>
                             <p className="text-lg text-muted max-w-lg animate-fade-in animation-delay-200">
-                                Hi, I'm Ramon Soledad — a Computer Engineer specializing in Front-End Development. 
+                                Hi, I'm Ramon Soledad a Computer Engineer specializing in Front-End Development. 
                                 I build responsive, modern, and user-friendly web applications using React.js, JavaScript, and Tailwind CSS, 
                                 with a focus on clean code, performance, accessibility, and exceptional user experiences.
                             </p>

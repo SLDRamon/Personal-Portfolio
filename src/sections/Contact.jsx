@@ -1,6 +1,6 @@
 import { Mail, Phone, MapPin, Send, CheckCircle, AlertCircle } from "lucide-react";
 import { Button } from "@/components/Button";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import emailjs from "@emailjs/browser";
 
 
@@ -66,15 +66,24 @@ export const Contact = () => {
     
     setSubmitStatus({
       type:"success",
-      message:"Message sent successfully! I'll get back to yo soon.",
+      message:"Message sent successfully! I'll get back to you soon.",
     });
     setFormData({ name: "", email: "", message: "" });
 
+    //Clear success message after 5 seconds
+    setTimeout (() => {
+      setSubmitStatus({
+        name: "",
+        email: "",
+        message: "",
+      });
+    }, 5000);
+
   } catch (err) {
-    console.error("EmailJS error:", error);
+    console.error("EmailJS error:", err);
     setSubmitStatus({
       type: "error",
-      message: error.text || "Failed to send message. Please try again later.",
+      message: err.text || "Failed to send message. Please try again later.",
     });
 
 
@@ -114,7 +123,7 @@ export const Contact = () => {
                 required placeholder="Your name..."
                 value={formData.name}
                 onChange={(e) =>
-                  setFormData({... formData, name: e.target.vaule})
+                  setFormData({... formData, name: e.target.value})
                 }   
                 className="w-full px-4 py-3 bg-surface rounded-xl border border-border focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all"/>
               </div>
@@ -126,7 +135,7 @@ export const Contact = () => {
                 required placeholder="your@email.com" 
                 value={formData.email}
                 onChange={(e) =>
-                  setFormData({... formData, email: e.target.vaule})
+                  setFormData({... formData, email: e.target.value})
                 }   
                 className="w-full px-4 py-3 bg-surface rounded-xl border border-border focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all"/>
               </div>
@@ -140,7 +149,7 @@ export const Contact = () => {
                 required placeholder="Your message..."
                 value={formData.message}
                 onChange={(e) =>
-                  setFormData({... formData, message: e.target.vaule})
+                  setFormData({... formData, message: e.target.value})
                 }   
                 className="w-full px-4 py-3 bg-surface rounded-xl border border-border focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all resize-none"/>
               </div>
@@ -221,7 +230,7 @@ export const Contact = () => {
               </div>
               <p className="text-muted-foreground text-sm">
                 I'm currently open to new opportunities and exciting projects.
-                Whether you need a full-time engineer or a freelance consultant,
+                Whether you need a full-time Front-end Developer,
                 let's talk!
               </p>
             </div>

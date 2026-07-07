@@ -10,7 +10,7 @@ const highlights = [
     {
         icon: Code2,
         title: "Clean Code",
-        description: "Writing maintainable, scalable code that stands the testof time.",
+        description: "Writing maintainable, scalable code that stands the test of time.",
     },
     {
         icon: Rocket,
@@ -58,7 +58,7 @@ export const About = () => {
                             A professional with experience in technical support, system monitoring, and
                             hardware/software troubleshooting. Skilled in diagnosing and resolving technical issues,
                             maintaining system performance, and delivering efficient IT solutions. Recognized for strong 
-                            attention to detail, problem-solving abilities, and the capacity to perform effectivelyin 
+                            attention to detail, problem-solving abilities, and the capacity to perform effectively in 
                             fast-paced technical environments while ensuring reliable system operations.
                         </p>
                         <p>
