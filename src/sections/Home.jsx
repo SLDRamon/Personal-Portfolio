@@ -91,12 +91,12 @@ export const Home = () => {
                         {/* CTAs */}
                         <div className="flex flex-warp gap-4 animate-fade-in animation-delay-300">
                             <a href="#contact">
-                            <Button className="cursor-pointer" size="lg">
+                            <Button className="cursor-pointer md:text-lg" size="lg">
                                 Contact Me <ArrowRight className="w-5 h-5"/>
                             </Button>
                             </a>
                             <a href="https://drive.usercontent.google.com/u/0/uc?id=1BAIyL6lcP8W719S2rMnah_vXOraUcxn5&export=download" target="_blank"> 
-                             <AnimatedBorderButton >
+                             <AnimatedBorderButton className="md:text-lg">
                                 <Download className="w-5 h-5"/>
                                      Download CV
                             </AnimatedBorderButton>

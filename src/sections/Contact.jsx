@@ -155,7 +155,7 @@ export const Contact = () => {
               </div>
 
               <Button 
-              className="w-full cursor-pointer" 
+              className="w-full cursor-pointer md:text-lg" 
               type="submit" 
               size="lg" 
               disabled={isLoading}
