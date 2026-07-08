@@ -5,7 +5,7 @@ const experiences = [
     company: "NLEX Corporation",
     description:
       "Performed preventive and corrective maintenance of toll collection systems and traffic equipment. Diagnosed hardware issues, monitored network performance, and repaired equipment to ensure reliable system operations.",
-    technologies: ["Diagnosing", "Troubleshooting", "Assembling", "Reparing",],
+    technologies: ["Networking", "Hardware", "Software", "Tools",],
     current: true,
   },
   {
@@ -23,7 +23,7 @@ const experiences = [
     company: "Self-Employed",
     description:
       "Developing modern, responsive, and user-focused web applications using HTML5, CSS3, JavaScript, React.js, and Tailwind CSS. Dedicated to delivering fast, accessible, and high-quality interfaces that enhance user experience and support business goals.",
-    technologies: ["HTML5", "CSS3", "JavaScript", "React.js", "Tailwind"],
+    technologies: ["JavaScript", "React.js", "Tailwind", "Vercel"],
     current: false,
   },
   {
@@ -32,7 +32,7 @@ const experiences = [
     company: "Self-Employed",
     description:
       "Provided IT support and computer maintenance services for individuals and small businesses. Diagnosed and resolved hardware, software, and network issues while performing system upgrades, OS installations, data backup and recovery, and preventive maintenance to ensure reliable system performance.",
-    technologies: ["Diagnosing", "Troubleshooting", "Assembling", "Reparing"],
+    technologies: ["Hardware", "Software", "Networking", "Tools"],
     current: false,
   },
 ];
