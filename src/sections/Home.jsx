@@ -92,12 +92,12 @@ export const Home = () => {
                         <div className="flex flex-warp gap-4 animate-fade-in animation-delay-300">
                             <a href="#contact">
                             <Button className="cursor-pointer md:text-lg" size="lg">
-                                Contact Me <ArrowRight className="w-5 h-5"/>
+                                Contact Me <ArrowRight className="md:w-5 h-5" size={`15px`}/>
                             </Button>
                             </a>
                             <a href="https://drive.usercontent.google.com/u/0/uc?id=1BAIyL6lcP8W719S2rMnah_vXOraUcxn5&export=download" target="_blank"> 
                              <AnimatedBorderButton className="md:text-lg">
-                                <Download className="w-5 h-5"/>
+                                <Download className="md:w-5 h-5" size={`15px`}/>
                                      Download CV
                             </AnimatedBorderButton>
                             </a>

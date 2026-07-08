@@ -58,7 +58,7 @@ export const Experience = () => {
 
             {/* Timeline */}
             <div className="relative ">
-                <div className="timeline-glow absolute left-0 md:left-1/2 top-0 bottom-0 w-0.5 bg-linear-to-b from-primary/70 via-primary/30 to-transparent md:-translate-x-1/2 shadow-[0_0_25px_rgba(32,178,166,0.8)]"/>
+                <div className=" hidden timeline-glow absolute left-0 md:left-1/2 md:block top-0 bottom-0 w-0.5 bg-linear-to-b from-primary/70 via-primary/30 to-transparent md:-translate-x-1/2 shadow-[0_0_25px_rgba(32,178,166,0.8)]"/>
             
             {/* Experience Items */}
             <div className="space-y-12">
@@ -69,15 +69,15 @@ export const Experience = () => {
                     >
 
                         {/* Timeline Dot */}
-                        <div className="absolute left-0 md:left-1/2 top-0 w-3 h-3 bg-primary rounded-full -translate-x-1/2 ring-4 ring-background z-10">
+                        <div className="hidden absolute left-0 md:block md:left-1/2 top-0 w-3 h-3 bg-primary rounded-full -translate-x-1/2 ring-4 ring-background z-10">
                         {exp.current && (
                             <span className="absolute inset-0 rounded-full bg-primary animate-ping opacity-75"/>
                         )}
                         </div>
 
                         {/* Content */}
-                        <div className={`pl-8 md:pl-0 ${idx % 2 === 0 ? "md:pr-16 md:text-right" : "md:col-start-2 md:pl-16"}`}>
-                            <div className={`glass p-4 md:p-6 rounded-2xl border border-primary/30 hover:border-primary/50 transition-all duration-500`}>
+                        <div className={`md:pl-0 ${idx % 2 === 0 ? "md:pr-16 md:text-right" : "md:col-start-2 md:pl-16"}`}>
+                            <div className={`glass p-6 rounded-2xl border border-primary/30 hover:border-primary/50 transition-all duration-500`}>
                                 <span className="text-sm text-primary font-medium">{exp.period}</span>
                                 <h3 className="text-xl font-semibold mt-2">{exp.role}</h3>
                                 <p className="text-muted-foreground">{exp.company}</p>
