@@ -4,7 +4,10 @@ import {
     Rocket,
     Users,
     Lightbulb,
+    MonitorSmartphone,
 } from "lucide-react";
+import { DiResponsive } from "react-icons/di";
+import { LuBookOpen } from "react-icons/lu";
 
 const highlights = [
     {
@@ -27,6 +30,16 @@ const highlights = [
         title: "Innovation",
         description: "Staying ahead with the latest technologies and best practices.",
     },
+    {
+        icon: MonitorSmartphone,
+        title: "Responsive Design",
+        description: "Building responsive, mobile-first websites that deliver a seamless user experience across all devices and screen sizes.",
+    },
+    {
+        icon: LuBookOpen,
+        title: "Continuous Learner",
+        description: "Committed to continuous learning, staying current with modern front-end technologies, best practices, and industry trends.",
+    },
 ];
 
 export const About = () => {
@@ -42,9 +55,10 @@ export const About = () => {
                         </span>
                     </div>
 
-                    <h2 className="text-4xl md:text-5xl font-bold leading-tight animate-fade-in animation-delay-100 text-secondary-foreground">
+                    <h2 className="text-4xl md:text-5xl font-bold leading-tight animate-fade-in animation-delay-100 text-white">
                         Building the future,
-                        <span className="font-serif italic font-normal text-white"> {" "} one component at a time.</span>
+                        <span className="font-serif italic font-normal text-secondary-foreground"> {" "} one component </span>
+                        at a time.
                     </h2>
 
                     <div className="space-y-4 text-muted-foreground animate-fade-in animation-delay-200">

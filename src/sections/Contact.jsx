@@ -103,9 +103,9 @@ export const Contact = () => {
           <span className="text-secondary-foreground text-sm font-medium tracking-wider uppercase animate-fade-in">
             Get In Touch
           </span>
-          <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6 animate-fade-in animation-delay-100 text-secondary-foreground">
-            Let's build {""}
-            <span className="font-serif italic font-normal text-white"> something great</span>
+          <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6 animate-fade-in animation-delay-100 text-white">
+            Let's build something great {""}
+            <span className="font-serif italic font-normal text-secondary-foreground"> together</span>.
           </h2>
           <p className="text-muted-foreground animate-fade-in animation-delay-200">
             Have a project in mind? I'd love to hear about it. Send me a message

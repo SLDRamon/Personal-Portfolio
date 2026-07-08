@@ -5,8 +5,8 @@ import { BiLeftArrow } from "react-icons/bi";
 const testimonials = [
   {
     quote:
-      "Lorem ipsum dolor sit amet, consectetur adipscing elit. Tempus ut eu tempor, vitae porttitor sit. Nunc, neque ut fringilla.",
-    author: "Mia Collins",
+      "Ramon is a highly skilled developer who delivers high-quality work on time. His attention to detail and communication are outstanding.",
+    author: "Mia C." /* Collins */,
     role: "CTO, Tech Innovators Inc.",
     avatar:
       "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop",
@@ -14,15 +14,15 @@ const testimonials = [
   {
     quote:
       "Lorem ipsum dolor sit amet, consectetur adipscing elit. Tempus ut eu tempor, vitae porttitor sit. Nunc, neque ut fringilla.",
-    author: "Noah Carter",
-    role: "Product Manager, Digital Solutions",
+    author: "Noah C." /* Carter */,
+    role: "Production Manager, Digital Solutions",
     avatar:
       "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop",
   },
   {
     quote:
       "Lorem ipsum dolor sit amet, consectetur adipscing elit. Tempus ut eu tempor, vitae porttitor sit. Nunc, neque ut fringilla.",
-    author: "Emily Parker",
+    author: "Emily P." /* Parker */,
     role: "Engineering Lead, StartUp Labs",
     avatar:
       "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop",
@@ -30,7 +30,7 @@ const testimonials = [
   {
     quote:
       "Lorem ipsum dolor sit amet, consectetur adipscing elit. Tempus ut eu tempor, vitae porttitor sit. Nunc, neque ut fringilla.",
-    author: "Ethan Walker",
+    author: "Ethan W." /* Walker */,
     role: "CEO, Innovation Hub",
     avatar:
       "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop",
@@ -75,15 +75,16 @@ export const Testimonials = () => {
           <h2
             className="text-4xl md:text-5xl 
           font-bold mt-4 mb-6 animate-fade-in 
-          animation-delay-100 text-secondary-foreground"
+          animation-delay-100 text-white"
           >
             Kind words from{" "}
             <span
               className="font-serif italic 
-            font-normal text-white"
+            font-normal text-secondary-foreground"
             >
-              amazing people.
+              amazing {" "}
             </span>
+            people.
           </h2>
         </div>
 
@@ -96,7 +97,7 @@ export const Testimonials = () => {
                 <Quote className="w-6 h-6 text-primary-foreground" />
               </div>
 
-              <blockquote className="text-xl md:text-2xl font-medium leading-relaxed mb-8 pt-4">
+              <blockquote className="text-xl md:text-2xl font-normal italic leading-relaxed mb-8 pt-4">
                 "{testimonials[activeIdx].quote}"
               </blockquote>
 

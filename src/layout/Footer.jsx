@@ -28,6 +28,9 @@ export const Footer = () => {
             <p className="text-sm text-muted-foreground mt-2">
               © {currentYear} Ramon Soledad. All rights reserved.
             </p>
+            <p className="text-sm text-muted-foreground mt-2 font-serif italic font-normal">{
+              `"Designed and developed using React & Tailwind CSS."`}
+            </p>
           </div>
 
           {/* Links */}
