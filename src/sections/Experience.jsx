@@ -4,7 +4,7 @@ const experiences = [
     role: "Toll Road Systems Maintenance",
     company: "NLEX Corporation",
     description:
-      "Performs preventive and corrective maintenance tasks of Toll Collection Systems and Traffic Equipment, Observes technical procedures and work instructions whilst maintaining safework practices at all times, Network Monitoring and analyzes breakdown of FOE Equipment, and Diagnosing, assembling, and repairing toll plaza equipment.",
+      "Performed preventive and corrective maintenance of toll collection systems and traffic equipment. Diagnosed hardware issues, monitored network performance, and repaired equipment to ensure reliable system operations.",
     technologies: ["Diagnosing", "Troubleshooting", "Assembling", "Reparing",],
     current: true,
   },
@@ -13,7 +13,7 @@ const experiences = [
     role: "Toll Plaza Operations Associate",
     company: "NLEX Corporation",
     description:
-      "Process cash and electronic (RFID) payments accurately from drivers using the roadway, Watch for safety hazards or traffic anomalies in the toll lane and report incidents to supervisors promptly, and Ensure the efficient collection of toll fees and providing high-quality service to motorists.",
+      "Process cash and electronic (RFID) payments accurately from drivers using the roadway. Watch for safety hazards or traffic anomalies in the toll lane and report incidents to supervisors promptly. Ensure the efficient collection of toll fees and providing high-quality service to motorists.",
     technologies: ["Teller", "Cash", "RFID", "System Monitoring"],
     current: false,
   },
@@ -22,7 +22,7 @@ const experiences = [
     role: "Freelance Front-end Developer",
     company: "Self-Employed",
     description:
-      "Provide end-to-end front-end development services, transforming ideas and designs into modern, responsive, and user-centric web applications. Utilize technologies such as HTML5, CSS3, JavaScript, React.js, and Tailwind CSS to create fast, scalable, and visually compelling interfaces. Committed to delivering high-quality solutions that enhance user engagement, improve accessibility, and support business objectives through thoughtful design and efficient development practices.",
+      "Developing modern, responsive, and user-focused web applications using HTML5, CSS3, JavaScript, React.js, and Tailwind CSS. Dedicated to delivering fast, accessible, and high-quality interfaces that enhance user experience and support business goals.",
     technologies: ["HTML5", "CSS3", "JavaScript", "React.js", "Tailwind"],
     current: false,
   },
@@ -31,7 +31,7 @@ const experiences = [
     role: "Freelance Computer Technician",
     company: "Self-Employed",
     description:
-      "Delivered comprehensive IT support and computer maintenance services to individuals and small businesses. Diagnosed and resolved hardware, software, and network issues, performed system upgrades, data backup and recovery, operating system installations, and preventive maintenance. Demonstrated strong analytical and troubleshooting skills while ensuring optimal system reliability, security, and performance. Built a reputation for providing dependable technical solutions and excellent customer service.",
+      "Provided IT support and computer maintenance services for individuals and small businesses. Diagnosed and resolved hardware, software, and network issues while performing system upgrades, OS installations, data backup and recovery, and preventive maintenance to ensure reliable system performance.",
     technologies: ["Diagnosing", "Troubleshooting", "Assembling", "Reparing"],
     current: false,
   },
@@ -76,7 +76,7 @@ export const Experience = () => {
                         </div>
 
                         {/* Content */}
-                        <div className={`md:pl-0 ${idx % 2 === 0 ? "md:pr-16 md:text-right" : "md:col-start-2 md:pl-16"}`}>
+                        <div className={`p1-0 md:pl-0 ${idx % 2 === 0 ? "md:pr-16 md:text-right" : "md:col-start-2 md:pl-16"}`}>
                             <div className={`glass p-6 rounded-2xl border border-primary/30 hover:border-primary/50 transition-all duration-500`}>
                                 <span className="text-sm text-primary font-medium">{exp.period}</span>
                                 <h3 className="text-xl font-semibold mt-2">{exp.role}</h3>
