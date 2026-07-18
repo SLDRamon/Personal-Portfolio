@@ -4,7 +4,7 @@ const experiences = [
     role: "Toll Road Systems Maintenance",
     company: "NLEX Corporation",
     description:
-      "Performed preventive and corrective maintenance of toll collection systems and traffic equipment. Diagnosed hardware issues, monitored network performance, and repaired equipment to ensure reliable system operations.",
+      "Performed preventive and corrective maintenance of toll collection systems and traffic equipment. Diagnosed hardware issues, monitored network performance, and repaired equipment to ensure reliable system operations. Experience with ticketing system, remote support tools, and IT documentation.",
     technologies: ["Networking", "Hardware", "Software", "Tools",],
     current: true,
   },

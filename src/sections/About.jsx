@@ -69,11 +69,11 @@ export const About = () => {
                             focusing on the visual design, layout, and interactivity that users directly engage with.
                         </p>
                         <p>
-                            A professional with experience in technical support, system monitoring, and
-                            hardware/software troubleshooting. Skilled in diagnosing and resolving technical issues,
-                            maintaining system performance, and delivering efficient IT solutions. Recognized for strong 
-                            attention to detail, problem-solving abilities, and the capacity to perform effectively in 
-                            fast-paced technical environments while ensuring reliable system operations.
+                            A professional with experience in technical support, system monitoring, ticketing system, 
+                            remote support tools, and hardware/software troubleshooting. Skilled in diagnosing and 
+                            resolving technical issues, maintaining system performance, and delivering efficient IT solutions. 
+                            Recognized for strong attention to detail, problem-solving abilities, and the capacity to perform 
+                            effectively in fast-paced technical environments while ensuring reliable system operations.
                         </p>
                         <p>
                             Additionally, I possess foundational knowledge in front-end development, including
